@@ -2,7 +2,7 @@ import React from "react";
 
 const WatchedMovie = ({ movie, onDeleteMovie }) => {
   return (
-    <li>
+    <li className="watchednadeem">
       <img src={movie.poster} alt={`${movie.title} poster`} />
       <h3>{movie.title}</h3>
       <div>

@@ -418,18 +418,28 @@ EMPTY STAR
   }
 
   .list li {
-    grid-template-columns: 1fr;
     grid-template-rows: auto auto;
     padding: 1.2rem;
+    grid-template-columns: 1fr;
+  }
+  .list {
+    grid-template-columns: 1fr;
+  }
+  .watchednadeem img {
+    width: 60%;
+    margin-left: 50px;
   }
 
   .btn-delete {
     right: 1.2rem;
   }
-  /* 
-  .summary {
-    padding: 1.2rem 1.6rem 0.8rem 1.6rem;
-  } */
+  .list.list-movies {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .list.list-movies img {
+    width: 80px;
+  }
 
   .details {
     font-size: 1.2rem;
